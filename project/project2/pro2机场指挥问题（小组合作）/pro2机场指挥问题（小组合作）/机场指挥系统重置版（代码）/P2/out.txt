@@ -1,0 +1,96 @@
+This program simulates an airport with 2 runways.
+One plane can only land and the other can only depart in each unit of time.
+Up to what number of planes can be waiting to land or take off at any time?How many units of time will the simulation run?Expected number of arrivals per unit time?Expected number of departures per unit time?Plane number 0 ready to land.
+Plane number 1 ready to land.
+Plane number 2 ready to land.
+Plane number 2directed to another airport
+Plane number 3 ready to take off.
+Plane number 4 ready to take off.
+Plane number 5 ready to take off.
+Plane number 5told to try to takeoff again later
+Plane number 6 ready to take off.
+Plane number 6told to try to takeoff again later
+0:Plane number0landed after0 timeunit s in the takeoff queue.
+Warning
+Plane number 7 ready to take off.
+Plane number 7told to try to takeoff again later
+Plane number 8 ready to take off.
+Plane number 8told to try to takeoff again later
+1: Arrival Runway is idle.
+1: Departure Runway is idle.
+2: Arrival Runway is idle.
+2: Departure Runway is idle.
+Plane number 9 ready to land.
+Plane number 10 ready to land.
+Plane number 11 ready to take off.
+Plane number 11told to try to takeoff again later
+3:Plane number9landed after0 timeunit s in the takeoff queue.
+Warning
+Plane number 12 ready to land.
+4:Plane number12landed after0 timeunit s in the takeoff queue.
+4: Departure Runway is idle.
+5: Arrival Runway is idle.
+5: Departure Runway is idle.
+6: Arrival Runway is idle.
+6: Departure Runway is idle.
+7: Arrival Runway is idle.
+7: Departure Runway is idle.
+Plane number 13 ready to land.
+8:Plane number13landed after0 timeunit s in the takeoff queue.
+8: Departure Runway is idle.
+Plane number 14 ready to take off.
+Plane number 14told to try to takeoff again later
+Plane number 15 ready to take off.
+Plane number 15told to try to takeoff again later
+Plane number 16 ready to take off.
+Plane number 16told to try to takeoff again later
+Plane number 17 ready to take off.
+Plane number 17told to try to takeoff again later
+Plane number 18 ready to take off.
+Plane number 18told to try to takeoff again later
+Plane number 19 ready to take off.
+Plane number 19told to try to takeoff again later
+9: Arrival Runway is idle.
+9: Departure Runway is idle.
+
+
+------Arrival Runway Statistics------
+
+Simulation has concluded after 10 time units.
+Total number of planes processed7
+Total number of planes asking to land7
+Total number of planes asking to take off 0
+Total number of planes accepted for landing6
+Total number of planes accepted for takeoff 0
+Total number of planes refused for landing1
+Total number of planes refused for takeoff 0
+Total number of planes that landed6
+Total number of planes that took off0
+Total number of planes left in landing queue0
+Total number of planes left in takeoff queue0
+Percentage of time runway idle140%
+Average wait in landing queue 0time units
+Average wait in takeoff queuenantime units
+Average observed rate of planes wanting to land0.7per time unit
+Average observed rate of planes wanting to take off 0per time unit
+
+
+------Departures  Runway Statistics------
+
+Simulation has concluded after 10 time units.
+Total number of planes processed13
+Total number of planes asking to land0
+Total number of planes asking to take off 13
+Total number of planes accepted for landing0
+Total number of planes accepted for takeoff 2
+Total number of planes refused for landing0
+Total number of planes refused for takeoff 11
+Total number of planes that landed0
+Total number of planes that took off0
+Total number of planes left in landing queue0
+Total number of planes left in takeoff queue2
+Percentage of time runway idle0%
+Average wait in landing queue nantime units
+Average wait in takeoff queuenantime units
+Average observed rate of planes wanting to land0per time unit
+Average observed rate of planes wanting to take off 1.3per time unit

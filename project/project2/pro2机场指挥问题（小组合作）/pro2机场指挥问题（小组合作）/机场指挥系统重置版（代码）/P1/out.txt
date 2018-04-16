@@ -1,0 +1,47 @@
+This program simulates an airport with only one runway.
+One plane can land or depart in each unit of time.
+Up to what number of planes can be waiting to land or take off at any time?How many units of time will the simulation run?Expected number of arrivals per unit time?Expected number of departures per unit time?Plane number 0 ready to take off.
+Plane number 1 ready to take off.
+0:Plane number0took off after0 timeunit s in the takeoff queue.
+Plane number 2 ready to land.
+Plane number 3 ready to land.
+Plane number 4 ready to land.
+Plane number 4directed to another airport
+Plane number 5 ready to land.
+Plane number 5directed to another airport
+1:Plane number2landed after0 timeunit s in the takeoff queue.
+Plane number 6 ready to land.
+Plane number 7 ready to land.
+Plane number 7directed to another airport
+2:Plane number3landed after1 timeunit  in the takeoff queue.
+Plane number 8 ready to take off.
+Plane number 9 ready to take off.
+Plane number 9told to try to takeoff again later
+3:Plane number6landed after1 timeunit  in the takeoff queue.
+Plane number 10 ready to land.
+Plane number 11 ready to take off.
+Plane number 11told to try to takeoff again later
+4:Plane number10landed after0 timeunit s in the takeoff queue.
+5:Plane number1took off after5 timeunit s in the takeoff queue.
+6:Plane number8took off after3 timeunit s in the takeoff queue.
+7: Runway isidle.
+Plane number 12 ready to take off.
+8:Plane number12took off after0 timeunit s in the takeoff queue.
+9: Runway isidle.
+Simulation has concluded after 10 time units.
+Total number of planes processed13
+Total number of planes asking to land7
+Total number of planes asking to take off 6
+Total number of planes accepted for landing4
+Total number of planes accepted for takeoff 4
+Total number of planes refused for landing3
+Total number of planes refused for takeoff 2
+Total number of planes that landed4
+Total number of planes that took off4
+Total number of planes left in landing queue0
+Total number of planes left in takeoff queue0
+Percentage of time runway idle20%
+Average wait in landing queue 0.5time units
+Average wait in takeoff queue2time units
+Average observed rate of planes wanting to land0.7per time unit
+Average observed rate of planes wanting to take off 0.6per time unit

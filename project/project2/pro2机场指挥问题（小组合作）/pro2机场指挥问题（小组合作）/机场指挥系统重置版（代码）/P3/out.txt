@@ -1,0 +1,94 @@
+This program simulates an airport with 2 runways.
+One plane can only land and the other can only depart in each unit of time.
+Up to what number of planes can be waiting to land or take off at any time?How many units of time will the simulation run?Expected number of arrivals per unit time?Expected number of departures per unit time?Plane number 0 ready to land.
+Plane number 1 ready to land.
+Plane number 2 ready to land.
+Plane number 3 ready to take off.
+Plane number 4 ready to take off.
+Plane number 5 ready to take off.
+Plane number 5told to try to takeoff again later
+Plane number 6 ready to take off.
+Plane number 6told to try to takeoff again later
+0:Plane number1landed after0 timeunit s in the takeoff queue.
+On departure runway
+0:Plane number0landed after0 timeunit s in the takeoff queue.
+Plane number 7 ready to take off.
+Plane number 7told to try to takeoff again later
+Plane number 8 ready to take off.
+Plane number 8told to try to takeoff again later
+1:Plane number2landed after1 timeunit  in the takeoff queue.
+1:Plane number3took off after1 timeunit  in the takeoff queue.
+2: Arrival Runway is idle.
+2:Plane number4took off after2 timeunit s in the takeoff queue.
+Plane number 9 ready to land.
+Plane number 10 ready to land.
+Plane number 11 ready to take off.
+3:Plane number10landed after0 timeunit s in the takeoff queue.
+On departure runway
+3:Plane number9landed after0 timeunit s in the takeoff queue.
+Plane number 12 ready to land.
+4:Plane number12landed after0 timeunit s in the takeoff queue.
+4:Plane number11took off after1 timeunit  in the takeoff queue.
+5: Arrival Runway is idle.
+5: Departure Runway is idle.
+6: Arrival Runway is idle.
+6: Departure Runway is idle.
+7: Arrival Runway is idle.
+7: Departure Runway is idle.
+Plane number 13 ready to land.
+8: Arrival Runway is idle.
+On departure runway
+8:Plane number13landed after0 timeunit s in the takeoff queue.
+Plane number 14 ready to take off.
+Plane number 15 ready to take off.
+Plane number 16 ready to take off.
+Plane number 17 ready to take off.
+Plane number 17told to try to takeoff again later
+Plane number 18 ready to take off.
+Plane number 18told to try to takeoff again later
+Plane number 19 ready to take off.
+Plane number 19told to try to takeoff again later
+9:Plane number14landed after0 timeunit s in the takeoff queue.
+9:Plane number15took off after0 timeunit s in the takeoff queue.
+
+
+------Arrival Runway Statistics------
+
+Simulation has concluded after 10 time units.
+Total number of planes processed5
+Total number of planes asking to land5
+Total number of planes asking to take off 0
+Total number of planes accepted for landing5
+Total number of planes accepted for takeoff 0
+Total number of planes refused for landing0
+Total number of planes refused for takeoff 0
+Total number of planes that landed5
+Total number of planes that took off0
+Total number of planes left in landing queue0
+Total number of planes left in takeoff queue0
+Percentage of time runway idle50%
+Average wait in landing queue 0.2time units
+Average wait in takeoff queuenantime units
+Average observed rate of planes wanting to land0.5per time unit
+Average observed rate of planes wanting to take off 0per time unit
+
+
+------Departures  Runway Statistics------
+
+Simulation has concluded after 10 time units.
+Total number of planes processed15
+Total number of planes asking to land3
+Total number of planes asking to take off 12
+Total number of planes accepted for landing3
+Total number of planes accepted for takeoff 5
+Total number of planes refused for landing0
+Total number of planes refused for takeoff 7
+Total number of planes that landed3
+Total number of planes that took off4
+Total number of planes left in landing queue0
+Total number of planes left in takeoff queue1
+Percentage of time runway idle30%
+Average wait in landing queue 0time units
+Average wait in takeoff queue1time units
+Average observed rate of planes wanting to land0.3per time unit
+Average observed rate of planes wanting to take off 1.2per time unit
